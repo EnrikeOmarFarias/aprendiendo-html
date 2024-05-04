@@ -331,6 +331,29 @@
   <option value="">C</option>
 </select>
 
+<h2>Atributos de formularios</h2>
+
+<input type="text" readonly value="kike" disabled>
+<br>
+<input type="text" placeholder="escribe tu nombre">
+<br>
+<h3>Ejemplos de formulario</h3>
+<h4>Formulario de login</h4>
+<form action="http://enviarformulario.php" method="get" autocomplete="off">
+  <label for="usuario">Usuario: </label>
+  <input type="text" name="usuario" id="usuario" placeholder="escribe tu nombre de usuario" required pattern="^[A-Za-z]+$" title="El campo solo acepta letras">
+  <br>
+  <label for="">Contraseña</label>
+  <input type="password">
+  <br>
+  <input type="submit">
+  <br>
+  <input type="reset">
+  <br>
+</form>
+
+
+
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
